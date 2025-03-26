@@ -137,7 +137,6 @@ $(document).on('click', '.editProduct', function(e) {
         },
         success: function(msg) {
             const info = JSON.parse(msg);
-            debugger;
             getProducts();
         }
     })
@@ -154,7 +153,6 @@ $(document).on('click', '.deleteProduct', function(e) {
         },
         success: function(msg) {
             const info = JSON.parse(msg);
-            debugger;
             getProducts();
         }
     })
