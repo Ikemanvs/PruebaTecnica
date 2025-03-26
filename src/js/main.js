@@ -117,7 +117,6 @@ $(document).on('click', '.saveProduct', function(e) {
         },
         success: function(msg) {
             const info = JSON.parse(msg);
-            debugger;
             getProducts();
         }
     })
